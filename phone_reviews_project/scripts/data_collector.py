@@ -5,7 +5,7 @@ import os
 import nest_asyncio
 nest_asyncio.apply()
 
-
+#не понял оставить данные или нет, но решил оставить, для верности. Но вообще можно свои вствить и канал поменять и то же самое будет
 api_id = 27691773
 api_hash = '518514bab6ca37d91c944280dd2d60fa'
 client = TelegramClient('meduza_session', api_id, api_hash)
